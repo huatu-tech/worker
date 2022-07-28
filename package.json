@@ -1,5 +1,5 @@
 {
-  "name": "worker",
+  "name": "@huatu/worker",
   "version": "1.0.0",
   "author": "lufinka",
   "type": "module",

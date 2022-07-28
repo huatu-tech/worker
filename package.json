@@ -1,0 +1,33 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "author": "lufinka",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_ENV=test jest --detectOpenHandles",
+    "build": "tsc -d"
+  },
+  "github": "https://github.com/huatu-tech/worker.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huatu-tech/worker.git"
+  },
+  "keywords": [
+    "worker",
+    "web worker",
+    "workerjs"
+  ],
+  "description": "a workerjs plugin",
+  "bugs": {
+    "url": "https://github.com/huatu-tech/worker/issues"
+  },
+  "homepage": "https://github.com/huatu-tech/worker.git",
+  "exports": "./index.js",
+  "module": "./index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "license": "MIT"
+}
